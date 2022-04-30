@@ -1,0 +1,15 @@
+version: "3.6"
+services:
+  mongodb:
+    image: mongo
+    restart: always
+    volumes:
+      - db_data:/var/lib/mongodb/data
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=root
+      - MONGO_INITDB_ROOT_PASSWORD=root
+      - MONGO_INITDB_DATABASE=berlin-mongodb
+    ports:
+      - "27017:27017"
+volumes:
+  db_data:
