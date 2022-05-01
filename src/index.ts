@@ -1,4 +1,4 @@
-import express, { Request, Response } from "express"
+import express from "express"
 import bot from "./bot"
 import webhookRoutes from "./routes/webhook"
 

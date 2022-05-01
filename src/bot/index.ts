@@ -1,8 +1,8 @@
 import { Telegraf } from "telegraf"
 import config from "../config"
-import { coin } from "./commands/coin"
-import { dice } from "./commands/dice"
-import { quit } from "./commands/quit"
+import { coin } from "../commands/coin"
+import { dice } from "../commands/dice"
+import { quit } from "../commands/quit"
 
 const bot = new Telegraf(config.BOT_TOKEN)
 bot.command("quit", quit)

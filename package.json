@@ -1,9 +1,9 @@
 {
-  "name": "Berlin",
+  "name": "berlin",
   "version": "1.0.0",
   "description": "Telegram Bot",
   "main": "index.ts",
-  "repository": "https://github.com/soymvillalobos/Berlin",
+  "repository": "https://github.com/soymvillalobos/berlin",
   "author": "soymvillalobos",
   "license": "MIT",
   "scripts": {
